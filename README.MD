@@ -32,7 +32,7 @@ This boilerplate is **NOT** for a beginner developer as that it requires a gener
 
 To start using this boilerplate, clone the repo to your desired destination and install the dependencies.
 
-```
+```bash
 $ git clone https://github.com/twetlix/nestjs-react-graphql-boilerplate.git <your-project-name>
 
 $ cd <your-project-name>
@@ -43,23 +43,33 @@ $ yarn install
 
 Run the following command to start the project in an auto-reloading development mode
 
-`$ yarn dev`
+```bash
+$ yarn dev
+```
 
 And to build your project
 
-`$ yarn build`
+```bash
+$ yarn build
+```
 
 To run tests
 
-`$ yarn test`
+```bash
+$ yarn test
+```
 
 To lint the project
 
-`$ yarn lint`
+```bash
+$ yarn lint
+```
 
 To format the project
 
-`$ yarn format`
+```bash
+$ yarn format
+```
 
 **There are other commands you can run for the boilerplate, just take a look at the package.json file in the root folder**
 
