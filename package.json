@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "concurrently": "^4.1.1"
+  },
+  "scripts": {
+    "server:dev": "yarn workspace @nestjs-react-graphql-boilerplate/server dev",
+    "client:dev": "yarn workspace @nestjs-react-graphql-boilerplate/client dev",
+    "dev": "concurrently \"yarn server:dev\" \"yarn client:dev\"",
+    "server:build": "yarn workspace @nestjs-react-graphql-boilerplate/server build",
+    "client:build": "yarn workspace @nestjs-react-graphql-boilerplate/client build",
+    "build": "concurrently \"yarn server:build\" \"yarn client:build\"",
+    "server:start": "yarn workspace @nestjs-react-graphql-boilerplate/server start",
+    "client:start": "yarn workspace @nestjs-react-graphql-boilerplate/client start",
+    "start": "concurrently \"yarn server:start\" \"yarn client:start\"",
+    "server:lint": "yarn workspace @nestjs-react-graphql-boilerplate/server lint",
+    "client:lint": "yarn workspace @nestjs-react-graphql-boilerplate/client lint",
+    "lint": "concurrently \"yarn server:lint\" \"yarn client:lint\"",
+    "server:format": "yarn workspace @nestjs-react-graphql-boilerplate/server format",
+    "client:format": "yarn workspace @nestjs-react-graphql-boilerplate/client format",
+    "format": "concurrently \"yarn server:format\" \"yarn client:format\"",
+    "server:test": "yarn workspace @nestjs-react-graphql-boilerplate/server test",
+    "client:test": "yarn workspace @nestjs-react-graphql-boilerplate/client test",
+    "test": "concurrently \"yarn server:test\" \"yarn client:test\"",
+    "server:test:watch": "yarn workspace @nestjs-react-graphql-boilerplate/server test:watch",
+    "client:test:watch": "yarn workspace @nestjs-react-graphql-boilerplate/client test:watch",
+    "test:watch": "concurrently \"yarn server:test:watch\" \"yarn client:test:watch\"",
+    "server:test:cov": "yarn workspace @nestjs-react-graphql-boilerplate/server test:cov",
+    "client:test:cov": "yarn workspace @nestjs-react-graphql-boilerplate/client test:cov",
+    "test:cov": "concurrently \"yarn server:test:cov\" \"yarn client:test:cov\""
+  }
+}
