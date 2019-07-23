@@ -1,12 +1,16 @@
-# Nestjs React GraphQL Boilerplate
+<h1 align="center">
+  Nestjs React GraphQL Boilerplate
+</h1>
 
-![language](https://img.shields.io/badge/language-TypeScript-blue.svg)
-![Backend](https://img.shields.io/badge/backend-Nestjs-e0224e.svg)
-![API](https://img.shields.io/badge/api-GraphQL-e535ab.svg)
-![Database](https://img.shields.io/badge/database-TypeOrm-fb0902.svg)
-![Frontend](https://img.shields.io/badge/frontend-Nextjs-0f70f3.svg)
-![Testing](https://img.shields.io/badge/testing-Jest-954058.svg)
-![GitHub](https://img.shields.io/github/license/twetlix/nestjs-react-graphql-boilerplate.svg)
+<div style="display: flex; justify-content: center; margin-bottom: 30px;">
+  <img style="margin-right: 5px;" src="https://img.shields.io/badge/language-TypeScript-blue.svg" alt="language">
+  <img style="margin-right: 5px;" src="https://img.shields.io/badge/backend-Nestjs-e0224e.svg" alt="Backend">
+  <img style="margin-right: 5px;" src="https://img.shields.io/badge/api-GraphQL-e535ab.svg" alt="API">
+  <img style="margin-right: 5px;" src="https://img.shields.io/badge/database-TypeOrm-fb0902.svg" alt="Database">
+  <img style="margin-right: 5px;" src="https://img.shields.io/badge/frontend-Nextjs-0f70f3.svg" alt="Frontend">
+  <img style="margin-right: 5px;" src="https://img.shields.io/badge/testing-Jest-954058.svg" alt="Testing">
+  <img src="https://img.shields.io/github/license/twetlix/nestjs-react-graphql-boilerplate.svg" alt="GitHub">
+</div>
 
 > A Fullstack Web App boilerplate based on these bad boys, **GraphQL** / **Postgresql** / **Nestjs** / **React** 😘
 
