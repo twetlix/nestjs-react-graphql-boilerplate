@@ -33,7 +33,7 @@ This boilerplate is **NOT** for a beginner developer as that it requires a gener
 To start using this boilerplate, clone the repo to your desired destination and install the dependencies.
 
 ```
-$ git clone https://github.com/twetlix/nestjs-react-graphql-boilerplate <your-project-name>
+$ git clone https://github.com/twetlix/nestjs-react-graphql-boilerplate.git <your-project-name>
 
 $ cd <your-project-name>
 $ yarn install
