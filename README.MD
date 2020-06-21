@@ -28,7 +28,7 @@ This boilerplate is for someone that wants firstly using a typed language like T
 
 ## Note
 
-This boilerplate is **NOT** for a beginner developer as that it requires a general knowledge of GraphQL, TypeScript, Nestjs and GraphQL
+This boilerplate is **NOT** for a beginner developer as that it requires a general knowledge of GraphQL, TypeScript, Nestjs and React
 
 ## Installation
 
