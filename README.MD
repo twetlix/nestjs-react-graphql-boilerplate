@@ -28,7 +28,7 @@ This boilerplate is for someone that wants firstly using a typed language like T
 
 ## Note
 
-This boilerplate is **NOT** for a beginner developer as that it requires a general knowledge of GraphQL, TypeScript, Nestjs and GraphQL
+This boilerplate is **NOT** for a beginner developer as that it requires a general knowledge of GraphQL, TypeScript, Nestjs and React
 
 ## Installation
 
@@ -73,7 +73,14 @@ To format the project
 $ yarn format
 ```
 
+
 **There are other commands you can run for the boilerplate, just take a look at the package.json file in the root folder**
+
+
+## Env variables and api keys
+
+Make sure to create `.env.development` and/or `.env.production` files inside  `/packages/client/` and `/packages/server/`. These are git ignored files, consist of private configurations and API keys. The project needs this initial set up to run.
+
 
 ## Moreover
 
